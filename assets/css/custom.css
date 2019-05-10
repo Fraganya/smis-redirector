@@ -1,0 +1,77 @@
+body {
+    margin: 2px;
+}
+
+.navbar {
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+.social-icons i {
+    font-size: 150%;
+}
+
+.navbar-search {
+    border-radius: 10px;
+}
+
+#banner {
+    margin-top: 0px;
+    background-image: url(../img/temp-bg.jpg) !important;
+    background-size: cover;
+    min-height: 500px;
+    color: #000;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+    background-position: center;
+    position: relative;
+    padding-top: 6%;
+}
+
+#banner * {
+    color: #fff;
+}
+
+.banner-btn {
+    color: #fff;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+
+.banner-btn:hover,
+.banner-btn:active {
+    background-color: transparent
+}
+
+button {
+    border-radius: 0px !important;
+}
+
+#paintings {
+    margin-top: 10px;
+}
+
+footer {
+    color: #fff;
+    background-color: #000;
+    min-height: 40px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+footer a {
+    color: #fff;
+}
+
+.social-links i {
+    font-size: 150%;
+}
+
+#footer-logo {
+    font-size: 200%;
+    font-family: cursive
+}
