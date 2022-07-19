@@ -40,30 +40,24 @@
         <div class="col-sm-6">
             <div class="panel panel-default" style="margin-top:50px;background-color:#fafafa;border-radius:0px;">
                 <div class="panel-body">
-                    <form action="http://psu2/switch" method="POST" role="form">
+                    <form action="./switch.php" method="POST" role="form">
                         <legend>Enter Sample SMIS Details</legend>
-                        <div class="form-group">
-                            <label for="">Username</label>
-                            <input type="text" class="form-control" id="username" name="username" placeholder="e.g bis14-fganya">
-                        </div>
+                        <input type="hidden" name="challenge_key" value="base64:GgorEGxR1ZxcsqbQZZst6oz5m3ZYQu+5oHIM8IOIlaA=">
+                
                         <div class="form-group">
                             <label for="">Registration Number</label>
-                            <input type="text" class="form-control" id="reg-num" style=""   name="reg_num" placeholder="registration number">
-                        </div>
-                        <div class="form-group">
-                            <label for="">Student ID</label>
-                            <input type="text" class="form-control" id="student-id" name="student_id" placeholder="student number">
+                            <input type="text" class="form-control" id="reg-num" style=""   name="student_reg" placeholder="registration number">
                         </div>
                         <div class="form-group">
                             <label for="">Firstname</label>
-                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="firstname">
+                            <input type="text" class="form-control" id="firstname" name="first_name" placeholder="firstname">
                         </div>
                         <div class="form-group">
                             <label for="">Surname</label>
-                            <input type="text" class="form-control" id="surname" name="surname" placeholder="surname">
+                            <input type="text" class="form-control" id="surname" name="last_name" placeholder="surname">
                         </div>
                         <button type="submit" class="btn btn-primary btn-sm" style="border-radius:0px;">
-                            <i class="glyphicon glyphicon-export"></i>&nbsp;Go to PSU-MIS
+                            <i class="glyphicon glyphicon-export"></i>&nbsp;Login
                         </button>
                         <button type="button" id="fetch-btn" class="btn btn-primary btn-sm" style="border-radius:0px;">
                             <i class="glyphicon glyphicon-import"></i>&nbsp;Fetch
